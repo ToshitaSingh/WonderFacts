@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/facts_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ListofWonders">
+
+        <TextView
+            android:id="@+id/hello_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/roboto"
+            android:paddingStart="@dimen/layout_padding"
+            android:paddingLeft="@dimen/layout_padding"
+            android:paddingEnd="@dimen/layout_padding"
+            android:paddingRight="@dimen/layout_padding"
+            android:text="@string/hello_text"
+            android:textAlignment="gravity"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/petra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/petra"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hello_text" />
+
+        <Button
+            android:id="@+id/bagan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto"
+            android:paddingBottom="@dimen/layout_padding"
+            android:text="@string/bagan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/acropolis" />
+
+        <Button
+            android:id="@+id/chichen_itza"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/chichen_itza"
+            app:layout_constraintEnd_toStartOf="@+id/acropolis"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toEndOf="@+id/great_wall"
+            app:layout_constraintTop_toBottomOf="@+id/sigiria" />
+
+        <Button
+            android:id="@+id/machu_pichu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/machu_pichu"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/petra" />
+
+        <Button
+            android:id="@+id/great_pyramid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/great_pyramid"
+            app:layout_constraintEnd_toStartOf="@+id/colosseum"
+            app:layout_constraintHorizontal_bias="0.519"
+            app:layout_constraintStart_toEndOf="@+id/petra"
+            app:layout_constraintTop_toBottomOf="@+id/hello_text" />
+
+        <Button
+            android:id="@+id/taj_mahal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/taj_mahal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/colosseum" />
+
+        <Button
+            android:id="@+id/great_wall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/great_wall"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/machu_pichu" />
+
+        <Button
+            android:id="@+id/colosseum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/colosseum"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hello_text" />
+
+        <Button
+            android:id="@+id/sigiria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/sigiria"
+            app:layout_constraintEnd_toStartOf="@+id/taj_mahal"
+            app:layout_constraintHorizontal_bias="0.373"
+            app:layout_constraintStart_toEndOf="@+id/machu_pichu"
+            app:layout_constraintTop_toBottomOf="@+id/great_pyramid" />
+
+        <Button
+            android:id="@+id/ephesus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:paddingBottom="@dimen/layout_padding"
+            android:text="@string/ephesus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/great_wall" />
+
+        <Button
+            android:id="@+id/christ_redeemer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:paddingBottom="@dimen/layout_padding"
+            android:text="@string/christ_redeemer"
+            app:layout_constraintEnd_toStartOf="@+id/bagan"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toEndOf="@+id/ephesus"
+            app:layout_constraintTop_toBottomOf="@+id/chichen_itza" />
+
+        <Button
+            android:id="@+id/acropolis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/acropolis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/taj_mahal" />
+
+        <ScrollView
+            android:id="@+id/facts_scroll"
+            android:layout_width="371dp"
+            android:layout_height="209dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="40dp"
+            android:paddingStart="@dimen/layout_padding"
+            android:paddingLeft="@dimen/layout_padding"
+            android:paddingTop="@dimen/layout_padding"
+            android:paddingEnd="@dimen/layout_padding"
+            android:paddingRight="@dimen/layout_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/christ_redeemer"
+            app:layout_constraintVertical_bias="0.861">
+
+
+            <TextView
+                android:id="@+id/scroll_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="@string/initial_string"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

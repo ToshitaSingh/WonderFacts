@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/home_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_desc"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="240dp"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="124dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/start_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="68dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/start_button" />
+
+        <ImageView
+            android:id="@+id/home_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/enter_name"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="A wonder facts text with logo"
+            app:srcCompat="@drawable/homepage" />
+    </RelativeLayout>
+
+</layout>
