@@ -6,8 +6,8 @@ The app displays a scrollable list of facts for a particular wonder of the world
 <table style="width:100%">
   <tr>
     <th>Home</th>
-    <th>One</th>
-    <th>Two</th>
+    <th>OneClicked</th>
+    <th>AllClicked</th>
   </tr>
   <tr>
     <td><img height=550px width=300px src="https://user-images.githubusercontent.com/40301340/83938545-ef7b9780-a7f2-11ea-978b-46a3af6a3fda.JPG"/></td>
@@ -16,3 +16,16 @@ The app displays a scrollable list of facts for a particular wonder of the world
   </tr>
 </table>
 
+---
+## **Built using**
+* Android Studio 4.0
+* Kotlin - The official programming language for building Android apps)
+## **Run the App**
+1. `Clone or Download` repository
+2. Open the app in Android Studio
+3. `Ctrl+F9` Build the App
+4. `Shift+F10` Run the App
+## Credits
+Thanks to the following codelabs
+* Kotlin Bootcamp for Programmers
+* Android Kotlin Fundamentals
