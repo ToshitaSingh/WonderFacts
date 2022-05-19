@@ -1,7 +1,7 @@
 # **WonderFacts App**
-My first attempt at building an Android app using the Kotlin language. Implemented basic Kotlin concepts such as *Late Initialization properties, Java Interoperability, String templates, Data Binding, Arrays, lists, loops, when statement, etc*. 
+My first attempt at building an Android app using the Kotlin language. I implemented basic Kotlin concepts such as *Late Initialization properties, Java Interoperability, String templates, Data Binding, Arrays, lists, loops, when statement, etc*. 
 
-This was part of the **Google's 30 Days Of Kotlin event** in which I [successfully submitted](https://drive.google.com/file/d/1npot4mBemObCeiuvqi09-3pvN6iBlB_p/view?usp=sharing) the app.
+This was part of the **Google's 30 Days Of Kotlin event** in which I [successfully submitted](https://drive.google.com/file/d/1npot4mBemObCeiuvqi09-3pvN6iBlB_p/view?usp=sharing) the app. The criteria was to develop an app using atleast 3 features that are unique to the Kotlin programming language. 
 ## **Introduction**
 The app displays a scrollable list of facts for a particular wonder of the world on the click of a button. It also adds a color everytime to the clicked button randomly picked from a color array. It provides a way for the user to enter their name and display it with a message.
 ## **Screenshots**
@@ -21,7 +21,7 @@ The app displays a scrollable list of facts for a particular wonder of the world
 ---
 ## **Built using**
 * Android Studio 4.0
-* Kotlin - The official programming language for building Android apps)
+* Kotlin - The official programming language for building Android apps
 ## **Run the App**
 1. `Clone or Download` repository
 2. Open the app in Android Studio
